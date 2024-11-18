@@ -2,6 +2,115 @@
     width: 100%;
     margin: 0 auto;
     background-color: rgb(1, 78, 86);
+    font-family: 'Livvic', sans-serif;
+}
 
-    
+.header {
+
+    .logo {
+        display: flex;
+        gap: 20px;
+        padding-top: 73px;
+        margin-left: 165px;
+        padding-bottom: 10px;
+
+        img {
+            width: 160px;
+            height: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            color: rgba(255, 255, 255, 1);
+            margin-left: 30px;
+        }
+
+        .first {
+            margin-left: 80px;
+        }
+
+        .btn {
+            margin-left: 577px;
+            width: 153px;
+            height: 48px;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 25px;
+            background-color: rgb(1, 78, 86);
+
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            color: rgba(255, 255, 255, 1);
+            border: 2px solid rgba(255, 255, 255, 1);
+            padding-top: 4px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            font-size: 22px;
+            background-color: #fff;
+            border: 2px solid rgb(1, 47, 52);
+            color: rgb(1, 78, 86);
+        }
+    }
+
+    .hero {
+        display: flex;
+        gap: 20px;
+
+        img {
+            width: 100px;
+            height: 200px;
+            margin-top: 120px;
+            motion-rotation: 180deg;
+        }
+
+        h1 {
+            width: 615px;
+            height: 200px;
+            margin-top: 120px;
+            margin-left: 50px;
+            font-weight: 700;
+            font-size: 100px;
+            line-height: 100px;
+            color: rgba(255, 255, 255, 1);
+            letter-spacing: 0.5px;
+
+            span {
+                color: rgb(246, 126, 126);
+            }
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            gap: 83px;
+            margin-left: 50px;
+
+            img {
+                width: 50px;
+                height: 4px;
+            }
+
+            p {
+                width: 445px;
+                height: 112px;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+                color: rgba(255, 255, 255, 1);
+            }
+        }
+    }
+
+    .header-bottom-picture {
+        margin-top: 170px;
+        margin-left: 940px;
+        position: relative;
+        top: 3px;
+    }
 }
