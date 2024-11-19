@@ -4,6 +4,12 @@ import Header from './assets/images/header.png'
 import Solid from './assets/images/solid.svg'
 import HeaderBottom from './assets/images/header-bottom.svg'
 
+import SolidRed from './assets/images/solid-red.svg'
+import Person from './assets/images/person.svg'
+import Settings from './assets/images/settings.svg'
+import Level from './assets/images/level.svg'
+import MainBottom from './assets/images/main-bottom.png'
+
 function App() {
   return (
     <div className="container">
@@ -25,6 +31,42 @@ function App() {
         </div>
 
         <img className='header-bottom-picture' src={HeaderBottom} alt="" />
+      </div>
+
+      <div className="main">
+        <div className="text">
+          <img src={SolidRed} alt="" />
+          <h2>Build & manage distributed teams like no one else.</h2>
+        </div>
+
+        <div className="datas">
+          <div className="data_first">
+            <img src={Person} alt="" />
+            <div className="text1">
+              <span>Experienced Individuals</span>
+              <p>Our network is made up of highly experienced professionals who are passionate about what they do.</p>
+            </div>
+          </div>
+
+          <div className="data_second">
+            <img src={Settings} alt="" />
+            <div className="text2">
+              <span>Easy to Implement</span>
+              <p>Our processes have been refined over years of implementation meaning our teams always deliver.</p>
+            </div>
+          </div>
+
+          <div className="data_thirty">
+            <img src={Level} alt="" /> 
+            <div className="text3">
+              <span>Enhanced Productivity</span>
+              <p>Our customized platform with in-built analytics helps you manage your distributed teams.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <img className='main-bottom-picture' src={MainBottom} alt="" />
       </div>
     </div>
   )
